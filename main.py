@@ -1,10 +1,6 @@
-import os
+import random
 
-# it is a random code
-if not os.file.pah_exist():
-    print('this is wrong')
-os.listdir()
+# Random number 1 se 10 tak
+num = random.randint(1, 10)
 
-os.getcwd()
-
-os.chdir('/')
+print("Random number:", num)
